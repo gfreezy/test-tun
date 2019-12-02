@@ -1,0 +1,15 @@
+[package]
+name = "test-tun"
+version = "0.1.0"
+authors = ["gfreezy <gfreezy@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2.66"
+anyhow = "1.0.25"
+sysconfig = { path = "/Users/feichao/Develop/seeker/sysconfig" }
+async-std = { git = "https://github.com/gfreezy/async-std", rev = "3b3f0f9f27e74ec6b7eb027d292ede25350b032d"}
+mio = "0.6.21"
+env_logger = "0.7.1"
