@@ -29,7 +29,6 @@ union IfrIfru {
     ifru_functional_type: u32,
 }
 
-#[allow(non_camel_case_types)]
 #[repr(C)]
 pub struct ifreq {
     ifr_name: [c_uchar; IFNAMSIZ],

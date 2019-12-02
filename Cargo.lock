@@ -496,7 +496,9 @@ dependencies = [
 [[package]]
 name = "sysconfig"
 version = "0.1.0"
+source = "git+https://github.com/gfreezy/seeker#846b184c21733ed301627b76c0c50649bf82db73"
 dependencies = [
+ "anyhow 1.0.25 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.2.66 (registry+https://github.com/rust-lang/crates.io-index)",
  "libproc 0.4.1 (git+https://github.com/gfreezy/libproc-rs?rev=bffc2c4)",
  "procfs 0.5.4 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -525,7 +527,7 @@ dependencies = [
  "env_logger 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.2.66 (registry+https://github.com/rust-lang/crates.io-index)",
  "mio 0.6.21 (registry+https://github.com/rust-lang/crates.io-index)",
- "sysconfig 0.1.0",
+ "sysconfig 0.1.0 (git+https://github.com/gfreezy/seeker)",
 ]
 
 [[package]]
@@ -698,6 +700,7 @@ dependencies = [
 "checksum slab 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = "c111b5bd5695e56cffe5129854aa230b39c93a305372fdbb2668ca2394eea9f8"
 "checksum spin 0.5.2 (registry+https://github.com/rust-lang/crates.io-index)" = "6e63cff320ae2c57904679ba7cb63280a3dc4613885beafb148ee7bf9aa9042d"
 "checksum syn 1.0.9 (registry+https://github.com/rust-lang/crates.io-index)" = "f89693ae015201f8de93fd96bde2d065f8bfc3f97ce006d5bc9f900b97c0c7c0"
+"checksum sysconfig 0.1.0 (git+https://github.com/gfreezy/seeker)" = "<none>"
 "checksum take_mut 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "f764005d11ee5f36500a149ace24e00e3da98b0158b3e2d53a7495660d3f4d60"
 "checksum termcolor 1.0.5 (registry+https://github.com/rust-lang/crates.io-index)" = "96d6098003bde162e4277c70665bd87c326f5a0c3f3fbfb285787fa482d54e6e"
 "checksum thread_local 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)" = "c6b53e329000edc2b34dbe8545fd20e55a333362d0a321909685a19bd28c3f1b"

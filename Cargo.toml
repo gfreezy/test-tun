@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 libc = "0.2.66"
 anyhow = "1.0.25"
-sysconfig = { path = "/Users/feichao/Develop/seeker/sysconfig" }
+sysconfig = { git = "https://github.com/gfreezy/seeker" }
 async-std = { git = "https://github.com/gfreezy/async-std", rev = "3b3f0f9f27e74ec6b7eb027d292ede25350b032d"}
 mio = "0.6.21"
 env_logger = "0.7.1"
